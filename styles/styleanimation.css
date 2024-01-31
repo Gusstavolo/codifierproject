@@ -1,0 +1,21 @@
+@keyframes robotJump {
+    0%{ height: 101px;
+        bottom: 102px} 
+    10%{height: 100px;
+        bottom: 120px;}
+    20%{
+        height: 105px;
+        bottom: 120px;
+    }
+    30%{height: 100px;
+        bottom: 102px}
+    40%{
+        height: 90px;
+        bottom: 102px;
+    }
+    50%{
+        height: 100px;
+        bottom: 102px
+    }
+    
+} 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/styleanimation.css">
     <title>challenge</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
         <section class="text-section-box">
             <textarea id="criptografar-texarea" class="text-area-box text-area-color-cripto" placeholder="Digite seu texto..."></textarea>
             <textarea id="descriptografar-texarea" class="text-area-box text-area-color-descripto"></textarea>
-            <img src="./images/robot.png" class="robot-area">
+            <img src="./images/robot.png" id="robot" class="robot-area">
         </section>
         <section class="buttons-box">
-            <button class="buttonconf criptoColor textformat">
+            <button onclick="clickButtonCripto()" class="buttonconf criptoColor textformat">
                 CRIPTOGRAFAR
             </button>
             <button class="buttonconf descriptoColor textformat">
@@ -30,6 +31,6 @@
 
 
     </main>
-    
+    <script src="./javascript/app.js" defer></script>
 </body>
 </html>
