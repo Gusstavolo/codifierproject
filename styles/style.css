@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../images/backgorundddd.png') no-repeat;
+    background-size: 100%;
+    
+}
+.main-box {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.header-box {
+    margin-top: 15px;
+    padding: 10px;
+
+}
+.warn-box {
+    width: 363px;
+    height: 37px;
+    flex-shrink: 0; 
+    border-radius: 22px;
+    background: #F6CE6E;
+
+}
+textarea {
+    padding: 8px;
+    resize: none;
+    outline-color: #F6CE6E;
+    border: none;
+    font-size: 1.5rem;
+    resize: none;
+    font-family: "Inter";
+    font-weight: 200;
+}
+.text-section-box {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.text-area-box {
+    width: 450px;
+    height: 460px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-left: 0px;
+}
+.text-area-color-cripto{
+    border-left: 0;
+    border-top: 1px solid #EB6E8B;
+    border-right: 4px solid #EB6E8B;
+    border-bottom: 1px solid #EB6E8B;
+    background: #ECECEC;
+    box-shadow: 0px 6px 8.2px 0px rgba(0, 0, 0, 0.10);
+}
+.text-area-color-descripto {
+    border-right: 0;
+    border-top: 1px solid #6A95E6;
+    border-left: 4px solid #6A95E6;
+    border-bottom: 1px solid #6A95E6;
+    background: #ECECEC;
+    box-shadow: 0px 6px 8.2px 0px rgba(0, 0, 0, 0.10);
+}
+
+.buttons-box {
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.buttonconf {
+    width: 204px;
+    height: 69px;
+    flex-shrink: 0; 
+    border-radius: 50px;
+    border: 0;
+}
+.descriptoColor {
+    background: #6A95E6;
+    box-shadow: 0px 6px 8.2px 0px rgba(0, 0, 0, 0.10);
+}
+.criptoColor {
+    background: #EB6E8B;
+    box-shadow: 0px 6px 8.2px 0px rgba(0, 0, 0, 0.10);
+}
+.textformat{
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.robot-area{
+    display: flex;
+    position: absolute;
+    bottom: 102px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+
+#criptografar-texarea {
+
+}
