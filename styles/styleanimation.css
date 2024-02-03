@@ -1,6 +1,6 @@
 @keyframes robotJump {
     0%{ height: 101px;
-        bottom: 102px} 
+        bottom: 102px;} 
     10%{height: 100px;
         bottom: 120px;}
     20%{
@@ -15,7 +15,24 @@
     }
     50%{
         height: 100px;
-        bottom: 102px
+        bottom: 102px;
     }
-    
 } 
+
+@keyframes robotStay {
+    from{}
+    to{}
+}
+.button-copy:hover {
+    opacity: 90%;
+}
+
+.buttonAnimation {
+    transition: width height opacity;
+    transition-duration: 0.5s;
+}
+.buttonAnimation:hover {
+    opacity: 99%;
+    width: 209px;
+    height: 74px;
+}

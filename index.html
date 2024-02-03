@@ -13,15 +13,16 @@
             <div class="warn-box main-box textformat">Apenas letras minúsculas e sem acento.</div>
         </header>
         <section class="text-section-box">
-            <textarea id="criptografar-texarea" class="text-area-box text-area-color-cripto" placeholder="Digite seu texto..."></textarea>
-            <textarea id="descriptografar-texarea" class="text-area-box text-area-color-descripto"></textarea>
+            <textarea type="text" id="criptografar-texarea" class="text-area-box text-area-color-cripto" placeholder="Digite seu texto..."></textarea>
+            <textarea type="text" id="descriptografar-texarea" class="text-area-box text-area-color-descripto"></textarea>
             <img src="./images/robot.png" id="robot" class="robot-area">
+            <button class="button-copy" onclick="buttonCopy()" ></button>
         </section>
         <section class="buttons-box">
-            <button onclick="clickButtonCripto()" class="buttonconf criptoColor textformat">
+            <button onclick="clickButtonCripto()" class="buttonconf criptoColor textformat buttonAnimation" id="butCrip">
                 CRIPTOGRAFAR
             </button>
-            <button class="buttonconf descriptoColor textformat">
+            <button onclick="clickButtonDescripto()" class="buttonconf descriptoColor textformat buttonAnimation" id="butDescrip">
                 DESCRIPTOGRAFAR
             </button>
 
