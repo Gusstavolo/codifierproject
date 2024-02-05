@@ -36,3 +36,11 @@
     width: 209px;
     height: 74px;
 }
+
+@media screen and (max-width: 600px) {
+    .buttonAnimation:hover {
+        width: 165px;
+        height: 63px;
+    }
+
+}
