@@ -19,10 +19,6 @@
     }
 } 
 
-@keyframes robotStay {
-    from{}
-    to{}
-}
 .button-copy:hover {
     opacity: 90%;
 }
@@ -42,5 +38,25 @@
         width: 165px;
         height: 63px;
     }
+    @keyframes robotJump {
+        0%{ height: 52px;
+            bottom: 330px;} 
+        10%{height: 50px;
+            bottom: 340px;}
+        20%{
+            height: 53px;
+            bottom: 340px;
+        }
+        30%{height: 50px;
+            bottom: 330px}
+        40%{
+            height: 45px;
+            bottom: 330px;
+        }
+        50%{
+            height: 50px;
+            bottom: 330px;
+        }
+    } 
 
 }
